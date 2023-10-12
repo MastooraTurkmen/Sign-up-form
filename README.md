@@ -1,14 +1,3 @@
-# Sign up Form
-
-Quick start:
-
-```
-$ npm install
-$ npm start
-```
-
-Head over to https://vitejs.dev/ to learn more about using vite
-
 # Become a Member in Students House
 
 Being a member of a student house offers a unique and enriching experience.
