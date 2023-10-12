@@ -1,0 +1,98 @@
+select {
+    appearance:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	background:url('http://www.free-icons-download.net/images/small-down-arrow-icon-15593.png');
+	background-repeat: no-repeat;
+	background-size:16px 17px;
+	background-position: right;
+    background-origin: content-box;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    position: relative;
+    border: 2px solid #C6C6C6;
+    color: #666;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 7px;
+    outline: none;
+}
+
+input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: #8040FF;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.left-label {
+    display: unset;
+    font-weight: normal;
+    margin-right: 2em;
+}
+
+.mt-extra {
+    margin-top: 2em;
+}
+
+.extra-height {
+    min-height: 150px;
+}
+
+
+
+input[type=checkbox] {
+    display: none;
+    pointer-events: none;
+}
+
+input[type=checkbox] + label {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto 3fr;
+}
+
+input[type=checkbox]:checked + label .check {
+    stroke-dashoffset: 0;
+}
+
+svg {
+    width: 2em;
+    stroke: #1A004E;
+    stroke-width: 5;
+    fill: white;
+}
+
+.box {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    fill: white;
+    transition: stroke-dashoffset .3s linear;
+}
+
+.check {
+    stroke-dasharray: 70;
+    stroke-dashoffset: 70;
+    fill: none;
+    transition: stroke-dashoffset .3s linear;
+}
+
+.left-col span {
+    padding-top: .4em;
+    margin-left: .5em;
+    font-weight: normal;
+    color: #1A004E;
+}
