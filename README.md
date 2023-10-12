@@ -12,8 +12,8 @@ Being a member of a student house offers a unique and enriching experience.
 
 ## DeskTop
 
-![Alt text](DeskTop-1.png)
+![Alt text](./images/DeskTop-1.png)
 
-![Alt text](DeskTop-2.png)
+![Alt text](./images/DeskTop-2.png)
 
-![Alt text](DeskTop-3.png)
+![Alt text](./images/DeskTop-3.png)
