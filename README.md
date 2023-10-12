@@ -20,3 +20,7 @@ Being a member of a student house offers a unique and enriching experience.
 ![Alt text](Mobile-2.png)
 
 ![Alt text](Mobile-3.png)
+
+## DeskTop
+
+![Alt text](DeskTop-1.png)
